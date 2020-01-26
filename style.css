@@ -1,0 +1,9 @@
+.name {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+hr {
+    border-top: 1px solid black;
+}
