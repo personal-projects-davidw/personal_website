@@ -1,9 +1,22 @@
-.name {
-    display: grid;
-    grid-template-columns: 1fr;
+body {
+    font-family: tahoma;
+}
 
+.name {
+    height: auto;
+    width: 100%;
 }
 
 .sect-head {
     text-align: center;
+    font-weight: bold;
+    color: #3B3C3E;
+}
+
+.center {
+    text-align: center;
+}
+
+.push_date {
+    float: right;
 }
