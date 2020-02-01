@@ -2,6 +2,13 @@ body {
     font-family: tahoma;
 }
 
+/* Change font size for mobiles */
+@media all and (max-width: 599px) and (min-width: 320px) {
+    body {
+        font-size: 60%;
+    }
+}
+
 .name {
     height: auto;
     width: 100%;
