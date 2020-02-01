@@ -17,12 +17,19 @@
         <!-- CSS Style Sheet -->
         <link rel="stylesheet" type="text/css" href="./style.css">
 
+        <!-- Custom JavaScript Sheet -->
+        <script type="text/javascript" src="./javascript.js"></script>
+
     </head>
 
     <body>
         <br>
         <div class="container">
-            <img class="name" src="./images/full_name.png" alt="">
+            <div class="custom-control custom-switch center">
+                <input type="checkbox" class="custom-control-input" id="nameSwitch" onclick="changeName()">
+                <label class="custom-control-label" for="nameSwitch"></label>
+            </div>
+            <img class="name" id="nameHead" src="./images/full_name.png" alt="">
         </div>
 
         <hr>
